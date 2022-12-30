@@ -25,3 +25,6 @@ These are the same instructions as in the create3_examples github repo README.md
 we are putting these packages in our ros2_ws workspace instead of making a separate workspace like they did.  
 See the following for using rosdep to install dependencies specified in a package:  
 [rosdep](https://docs.ros.org/en/foxy/Tutorials/Intermediate/Rosdep.html#how-do-i-use-the-rosdep-tool)  
+Make sure you have installed ros-dep:  
+`sudo apt install ros-dev-tools`  
+[ros2 install](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)  
