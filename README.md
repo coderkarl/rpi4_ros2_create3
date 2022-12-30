@@ -8,6 +8,7 @@ This repo documents the setup for a raspberry pi 4 with ros2 pre-installed. For 
 - Adding a new network setup file in /etc/netplan/50-cloud-init.yaml  
 - Enable ssh, i2c  
 - Install ros2 and make your /home/<user>/ros2_ws/src/ directory for custom packages  
+  [https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)  
 - Add the following ros2 custom packages to the ros2_ws/src/ directory and compile  
   git clone -b ros2 https://github.com/coderkarl/xv_11_laser_driver.git  
   git clone <raspicam2 url> (We will return to this /home/<user>/ros2_ws/src/raspicam/ package folder to see the repo and local changes
